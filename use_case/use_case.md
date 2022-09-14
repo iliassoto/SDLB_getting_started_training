@@ -1,5 +1,6 @@
 # Hands-on use case
 
+
 ## Case - Compute EU energy dependency index
 
 The goal of this use-case is to calculate the energy production vs. consumption (avg. over the last 5 years) of each country in Europe in order to measure a rough dependancy KPI. In other words, we want to measure *how well a country can sustain its own energy needs*.
