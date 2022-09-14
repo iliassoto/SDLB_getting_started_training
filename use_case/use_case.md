@@ -33,4 +33,4 @@ After manually downloading the data, the steps needed for the calculations would
 6. Calculate needed energy (based on population) for each country
 7. Produce dependency index for each country as an end result. 
 
-Na
+![Data Pipeline](flow.png)
