@@ -20,7 +20,7 @@ For this, we make rough assumptions / use the following restrictions:
 4. We assume that each person in the EU roughly needs the same amount of energy.
 5. We calculate our own dependancy of a country x KPI with: 
 
-$$ dep_x = {\text{total energy needed per person}} \over {\text{total energy produced per person}} \times 100 $$ 
+$$ {dep_x} = {{\text{total energy needed per person}} \over {\text{total energy produced per person}}} \times 100 $$ 
 
 ### Steps
 
