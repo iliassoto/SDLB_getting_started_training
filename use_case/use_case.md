@@ -1,8 +1,6 @@
-# Use cases
+# Hands-on use case
 
-## Option 1 - Compute road-distances for e-vehicle chargers within 100km radius.
-
-## Option 2 - Compute EU energy production/consumption index
+## Case - Compute EU energy dependency index
 
 The goal of this use-case is to calculate the energy production vs. consumption (avg. over the last 5 years) of each country in Europe in order to measure a rough dependancy KPI. In other words, we want to measure *how well a country can sustain its own energy needs*.
 
@@ -34,3 +32,20 @@ After manually downloading the data, the steps needed for the calculations would
 7. Produce dependency index for each country as an end result. 
 
 ![Data Pipeline](flow.png)
+
+
+
+## Backup Case 1: Computing possible distances to be traveled by e-vehicle
+
+In this scenario, we consider a group of e-vehicles with different maximal traveling distances ranging from 1km to 50km. We want to be able to compute the following: starting from a charging station and assuming that we know where other charging stations are, "*what is the farthest point within a 100 km radius where each vehicle can travel*. In other words, we want to know how far each car can get assuming that it has to stop at another charging station after the maximum traveling distance has been reached.
+
+
+
+
+## Backup Case 2: Measuring the efficiency of COVID-19 contact tracing systems in Switzerland
+
+For this use case, we use two datasets: one of them holds the data for contact tracing cases, including the week and the place where COVID-19 was contracted by a person. The other dataset includes the total number of reported cases per week. We want to be able to answer the following:
+
+1. Per season: Which activities where most common in order to get COVID-19?
+2. Comparison: how effective was the tracing system in Switzerland compared to the total number of reported cases per week?
+
